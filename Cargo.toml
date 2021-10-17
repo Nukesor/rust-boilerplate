@@ -9,8 +9,6 @@ edition = "2021"
 # General purpose code helper
 anyhow = "1"
 better-panic = "0.2"
-strum = "0.21"
-strum_macros = "0.21"
 
 # Commandline stuff
 clap = { version="3.0.0-beta.2", features=["wrap_help"] }
@@ -19,4 +17,6 @@ pretty_env_logger = "0.4"
 dotenv = "0.15"
 
 # Common libraries
+strum = "0.21"
+strum_macros = "0.21"
 chrono = { version="0.4", features=["serde"] }
