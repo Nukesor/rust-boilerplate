@@ -1,0 +1,22 @@
+[package]
+name = "rust-boilerplate"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# General purpose code helper
+anyhow = "1"
+better-panic = "0.2"
+strum = "0.21"
+strum_macros = "0.21"
+
+# Commandline stuff
+clap = { version="3.0.0-beta.2", features=["wrap_help"] }
+log = "0.4"
+pretty_env_logger = "0.4"
+dotenv = "0.15"
+
+# Common libraries
+chrono = { version="0.4", features=["serde"] }
