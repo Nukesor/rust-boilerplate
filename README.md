@@ -1,6 +1,6 @@
 # Rust Project Boilerplate
 
-This repository is a mini rust project that contains all important libraries and setup steps I find re-using all the time.
+This repository is a mini rust project that contains all important libraries and setup steps I find myself re-using all the time.
 
 ## Commandline
 
