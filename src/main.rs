@@ -8,6 +8,8 @@ use pretty_env_logger::env_logger::Builder;
 mod cli;
 
 fn main() -> Result<()> {
+    // Read any .env files
+    dotenv::dotenv().ok();
     // Parse commandline options.
     let opt = CliArguments::parse();
 
