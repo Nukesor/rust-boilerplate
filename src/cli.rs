@@ -1,6 +1,6 @@
-use clap::Clap;
+use clap::Parser;
 
-#[derive(Clap, Debug)]
+#[derive(Parser, Debug)]
 #[clap(name = "rust-boilerplate", about = "Some about", author, version)]
 pub struct CliArguments {
     /// Verbose mode (-v, -vv, -vvv)

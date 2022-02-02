@@ -1,5 +1,5 @@
 use anyhow::Result;
-use clap::Clap;
+use clap::Parser;
 
 use cli::CliArguments;
 use log::LevelFilter;
