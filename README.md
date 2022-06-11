@@ -12,6 +12,7 @@ This repository is a mini rust project that contains all important libraries and
 
 - `strum` for better enums.
 - `chrono` because there's always time involved.
+- `serde` & `serde_derive` for serialization.
 
 ## Error handling
 
