@@ -11,7 +11,7 @@ anyhow = "1"
 better-panic = "0.3"
 
 # Commandline stuff
-clap = { version="3.0.0", features=["derive", "cargo"] }
+clap = { version = "4", features = ["derive", "cargo"] }
 log = "0.4"
 pretty_env_logger = "0.4"
 dotenv = "0.15"
@@ -19,12 +19,12 @@ dotenv = "0.15"
 # Common libraries
 strum = "0.24"
 strum_macros = "0.24"
-chrono = { version="0.4", features=["serde"] }
+chrono = { version = "0.4", features = ["serde"] }
 crossbeam-channel = "0.5"
 serde = "1"
 serde_derive = "1"
 
 [dev-dependencies]
-rstest = "0.14"
+rstest = "0.15"
 rstest_reuse = "0.3"
 pretty_assertions = "1"
