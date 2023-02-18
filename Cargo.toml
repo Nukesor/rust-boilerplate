@@ -21,4 +21,3 @@ strum_macros = "0.24"
 [dev-dependencies]
 pretty_assertions = "1"
 rstest = "0.16"
-rstest_reuse = "0.3"
